@@ -14,12 +14,12 @@ Esse é o projeto do evento NLW Pocket Mobile, um dos conteúdos disponíveis pa
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto desenvolvido." src="./mobile/assets/preview/screen-1.png" width="80%">
+  <img alt="Preview do projeto desenvolvido." src="./mobile/assets/preview/screen-1.png" width="80%" height="300px">
 
 </p>
 
 <p align="center">
-    <img alt="Preview do projeto desenvolvido." src="./mobile/assets/preview/screen-2.png" width="80%">
+    <img alt="Preview do projeto desenvolvido." src="./mobile/assets/preview/screen-2.png" width="80%" >
 </p>
 
 ## Tecnologias utilizadas
