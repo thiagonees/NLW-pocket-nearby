@@ -1,4 +1,4 @@
-<p align="center"><img src="./mobile/assets/images/icon.png" width="180" height="70" alt="FreelanceHours Logo"></a></p>
+<p align="center"><img src="./mobile/assets/images/splash-icon.png" width="250" height="200" alt="FreelanceHours Logo"></a></p>
 
 <p align="center">
   <img alt="React native" src="https://img.shields.io/static/v1?label=expo&message=8.2&color=18181B&labelColor=3B9B62">
