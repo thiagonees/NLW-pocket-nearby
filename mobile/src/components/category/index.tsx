@@ -13,13 +13,13 @@ type Props = PressableProps & {
 
 }
 
-export default function Category({ name, iconId, isSelected, ...rest }: Props) {
+export function Category({ name, iconId, isSelected, ...rest }: Props) {
   const Icon = categoriesIcons[iconId]
 
   return (
-    <Pressable style={[s.container]}>
+    <Pressable style={[s.container, isSelected && s.selectedContainer]} {...rest}>
       <Icon size={16} color={colors.gray[isSelected? 100 : 400]} />
-      <Text style={[s.name]}>{name}</Text>
+      <Text style={[s.name, isSelected && s.selectedName]}>{name}</Text>
     </Pressable>
   )
 }
