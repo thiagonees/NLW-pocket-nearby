@@ -31,7 +31,6 @@ export default function Home() {
       }
       const { data } = await api.get("/markets/category/" + category)
       setMarkets(data)
-      console.log(data)
     } catch (error) {
       console.error(error)
       Alert.alert("Locais", "Error fetching markets")
@@ -48,7 +47,7 @@ export default function Home() {
 
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, backgroundColor: "#cecece" }}>
       <Categories data={categories} onSelect={setCategory} 
       selected={category} 
       />
