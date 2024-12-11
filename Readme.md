@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/images/icon.png" width="180" height="70" alt="FreelanceHours Logo"></a></p>
+<p align="center"><img src="./mobile/assets/images/icon.png" width="180" height="70" alt="FreelanceHours Logo"></a></p>
 
 <p align="center">
   <img alt="React native" src="https://img.shields.io/static/v1?label=expo&message=8.2&color=18181B&labelColor=3B9B62">
@@ -14,12 +14,12 @@ Esse é o projeto do evento NLW Pocket Mobile, um dos conteúdos disponíveis pa
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto desenvolvido." src="./assets/preview/screen-1.png" width="80%">
+  <img alt="Preview do projeto desenvolvido." src="./mobile/assets/preview/screen-1.png" width="80%">
 
 </p>
 
 <p align="center">
-    <img alt="Preview do projeto desenvolvido." src="./assets/preview/screen-2.png" width="80%">
+    <img alt="Preview do projeto desenvolvido." src="./mobile/assets/preview/screen-2.png" width="80%">
 </p>
 
 ## Tecnologias utilizadas
