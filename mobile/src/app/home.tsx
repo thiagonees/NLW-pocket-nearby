@@ -6,6 +6,7 @@ import { PlaceProps } from '@/components/place'
 import { Places } from '@/components/places'
 import MapView, { Callout, Marker } from 'react-native-maps'
 import { colors, fontFamily } from '@/styles/theme'
+import { router } from 'expo-router'
 // import * as Location from 'expo-location';
 
 type MarketsProps = PlaceProps & {
@@ -108,7 +109,7 @@ export default function Home() {
               }}
               image={require("@/assets/pin.png")}
             >
-              <Callout>
+              <Callout onPress={() => router.navigate(`/market/${item.id}`)}>
                 <View>
                   <Text style={{ fontSize: 14, 
                     color: colors.gray[600],
