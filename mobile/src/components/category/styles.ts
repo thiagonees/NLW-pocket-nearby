@@ -20,7 +20,8 @@ export const s = StyleSheet.create({
   },
   selectedContainer: {
     backgroundColor: colors.green.base,
-    borderWidth: 0,
+    borderColor: colors.green.base,
+
   },
   selectedName: {
     color: colors.gray[100]
